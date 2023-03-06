@@ -9,7 +9,7 @@ test.each([
     { wardName: "Vĩnh Phúc", cityName: "Hà Nội" },
 ])("$wardName in $cityName", ({ wardName, cityName }) => {
     return fetch(
-        process.env.HOST + "/EcommercePlatformm/MainController?btnAction=address&addressAction=getCityByWardName&wardName=" +
+        process.env.API_HOST_IP + "/EcommercePlatformm/MainController?btnAction=address&addressAction=getCityByWardName&wardName=" +
         wardName
     )
         .then((res) => res.json())

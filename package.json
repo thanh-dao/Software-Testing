@@ -12,5 +12,7 @@
   "devDependencies": {
     "jest": "^29.4.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
 }

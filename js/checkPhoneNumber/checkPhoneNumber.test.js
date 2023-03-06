@@ -9,7 +9,7 @@ const testCasesForRightArgument = [
 ];
 testCasesForRightArgument.forEach((testCase) => {
     test(`wrong testCase at ${testCase.phoneNumber} in testCasesForRightArgument`, () => {
-        expect(checkVietNamePhoneNumber(testCase.phoneNumber)).toBe(testCase.expectedResult);
+        expect(checkVietNamPhoneNumber(testCase.phoneNumber)).toBe(testCase.expectedResult);
     });
 });
 
