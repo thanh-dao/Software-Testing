@@ -4,7 +4,7 @@ require('dotenv').config();
 test.each([
     { wardName: "Long Thạnh Mỹ", cityName: "Hồ Chí Minh" },
     { wardName: "Hiệp Hòa", cityName: "Đồng Nai" },
-    // { wardName: "Hiệp Hòa", cityName: "Hồ Chí Minh" },
+    { wardName: "Hiệp Hòa", cityName: "Hồ Chí Minh" },
     { wardName: "Hiệp Hòa", cityName: "Quảng Nam" },
     { wardName: "Vĩnh Phúc", cityName: "Hà Nội" },
 ])("$wardName in $cityName", ({ wardName, cityName }) => {
